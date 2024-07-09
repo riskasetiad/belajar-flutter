@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/container_widget.dart';
 import 'package:myapp/news_container.dart';
+import 'package:myapp/row_column/biodata.dart';
+import 'package:myapp/row_column/column_widget.dart';
+import 'package:myapp/row_column/row_column.dart';
+import 'package:myapp/row_column/row_widget.dart';
+import 'package:myapp/row_column/latihan.dart';
 
 void main() {
   runApp(MyApp());
@@ -19,7 +24,7 @@ class MyApp extends StatelessWidget {
             centerTitle: true,
             backgroundColor: Colors.greenAccent,
           ),
-          body: NewsContainer(),
+          body: Biodata(),
           ),
     );
   }
