@@ -8,7 +8,6 @@ class BelajarRowColumn extends StatelessWidget {
     return Container(
       width: double.infinity,
       height: 80,
-// Suggested code may be subject to a license. Learn more: ~LicenseLog:1859051575.
       color: Colors.white,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,

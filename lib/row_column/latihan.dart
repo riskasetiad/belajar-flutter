@@ -15,22 +15,40 @@ class Latihan extends StatelessWidget {
           Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text('Text', style: TextStyle(fontSize: 20),),
-              Text('Text', style: TextStyle(fontSize: 20),),
-              Text('Text', style: TextStyle(fontSize: 20),),
+              Text(
+                'Text',
+                style: TextStyle(fontSize: 20),
+              ),
+              Text(
+                'Text',
+                style: TextStyle(fontSize: 20),
+              ),
+              Text(
+                'Text',
+                style: TextStyle(fontSize: 20),
+              ),
             ],
           ),
           Column(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
-              Text('Text', style: TextStyle(fontSize: 20),),
-              Text('Text', style: TextStyle(fontSize: 20),),
+              Text(
+                'Text',
+                style: TextStyle(fontSize: 20),
+              ),
+              Text(
+                'Text',
+                style: TextStyle(fontSize: 20),
+              ),
             ],
           ),
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Text('Text', style: TextStyle(fontSize: 20),),
+              Text(
+                'Text',
+                style: TextStyle(fontSize: 20),
+              ),
             ],
           ),
         ],
